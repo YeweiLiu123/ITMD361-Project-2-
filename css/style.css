@@ -55,7 +55,8 @@ nav a {
 }
 
 .fluid-page ul {
-  list-style: disc;
+  
+  list-style: none;
   margin-left: 2%;
 }
 
