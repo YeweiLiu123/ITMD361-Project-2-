@@ -1,63 +1,164 @@
-/*fluid page that's responsive*/
+/* Shared styles for all pages */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-    background-color: #333;
-    color: #fff;
+  background-color: #333;
+  color: #fff;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 100px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
+/* Styles for the Resume page */
 .fluid-page {
-    padding: 2%;
-    background-color: #fff;
-    margin: 2%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2%;
+  background-color: #fff;
+  margin: 2%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    font-size: 2em;
-    margin-bottom: 1em;
+.fluid-page h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
-h2 {
-    font-size: 1.6em;
-    margin-top: 1.6em;
+.fluid-page h2 {
+  font-size: 1.6em;
+  margin-top: 1.6em;
 }
 
-h3 {
-    font-size: 1.4em;
-    margin-top: 1em;
+.fluid-page h3 {
+  font-size: 1.4em;
+  margin-top: 1em;
 }
 
-p {
-    font-size: 1.2em;
+.fluid-page p {
+  font-size: 1.2em;
 }
 
-ul {
-    list-style: disc;
-    margin-left: 2%;
+.fluid-page ul {
+  list-style: disc;
+  margin-left: 2%;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
+/* Styles for the Favorite Game page */
+body.favoritegame {
+  background-color: #0f2027;
+  color: #ffffff;
+}
+
+header.favoritegame {
+  background-color: #1d3461;
+}
+
+section.favoritegame {
+  background-color: #2c5364;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 1280px;
+  height: 720px;
+  margin: 0 auto;
+}
+
+h1.favoritegame {
+  font-size: 36px;
+  color: #d9d9d9;
+}
+
+h2.favoritegame {
+  font-size: 24px;
+  color: #d9d9d9;
+  margin: 20px 0;
+}
+
+img.favoritegame {
+  max-width: 100%;
+  border: 10px solid #1d3461;
+  border-radius: 10px;
+}
+
+p.favoritegame {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+iframe.favoritegame {
+  width: 100%;
+  height: 400px;
+}
+
+footer.favoritegame {
+  background-color: #1d3461;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Styles for the Favorite Character page */
+body.favoritecharacter {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #fffbf7;
+  color: #fff;
+}
+
+section.favoritecharacter {
+  padding: 2%;
+  margin: 2%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1.favoritecharacter {
+  font-size: 2em;
+  color: #ff6666;
+}
+
+h2.favoritecharacter {
+  font-size: 1.5em;
+  color: #ff6666;
+  margin: 2% 0;
+}
+
+img.favoritecharacter {
+  max-width: 100%;
+  border: 0.2em solid #ff6666;
+  border-radius: 10px;
+}
+
+p.favoritecharacter {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+iframe.favoritecharacter {
+  width: 100%;
+  height: 20em;
+}
+
+footer.favoritecharacter {
+  background-color: #ff6666;
+  color: #fff;
+  text-align: center;
+  padding: 1%;
 }
