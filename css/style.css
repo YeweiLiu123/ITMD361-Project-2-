@@ -6,8 +6,21 @@ body {
 }
 
 nav {
-  background-color: #333;
+  background: linear-gradient(45deg, #ff0000, #ff9900, #33cc33, #3399ff, #cc33ff, #ff33cc);
+  background-size: 400% 400%;
   color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  animation: gradient 15s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
 }
 
 nav ul {
@@ -18,14 +31,20 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 100px;
+  margin: 0 20px;
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s;
 }
 
+nav a:hover {
+  color: #66a2ff;
+}
 /* Styles for the Resume page */
 .fluid-page {
   padding: 2%;
