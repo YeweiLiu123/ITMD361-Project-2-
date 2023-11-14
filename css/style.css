@@ -45,7 +45,7 @@ nav a {
 nav a:hover {
   color: #66a2ff;
 }
-/* Styles for the Resume page */
+/* Styles for the Resume page mobile friendly mode */
 .fluid-page {
   padding: 2%;
   background-color: #fff;
@@ -76,6 +76,61 @@ nav a:hover {
 .fluid-page ul {
   list-style: none;
   margin-left: 2%;
+}
+
+/*first media query: dimension */
+@media only screen and (max-width: 900px) {
+  .fluid-page {
+    padding: 5%;
+    margin: 5%;
+  }
+
+  .fluid-page h1 {
+    font-size: 2.5em;
+  }
+
+  .fluid-page h2 {
+    font-size: 2em;
+    margin-top: 2em;
+  }
+
+  .fluid-page p {
+    font-size: 1.4em;
+  }
+
+  .fluid-page ul {
+    margin-left: 5%;
+  }
+}
+
+/* second media query */
+@media only screen and (min-width: 1200px) {
+  .fluid-page {
+    padding: 8%;
+    margin: 8%;
+  }
+
+  .fluid-page h1 {
+    font-size: 3em;
+  }
+
+  .fluid-page h2 {
+    font-size: 2.5em;
+    margin-top: 2.5em;
+  }
+
+  .fluid-page h3 {
+    font-size: 2em;
+    margin-top: 1.5em;
+  }
+
+  .fluid-page p {
+    font-size: 1.6em;
+  }
+
+  .fluid-page ul {
+    margin-left: 8%;
+  }
 }
 
 /* Styles for the Favorite Game page */
