@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 /*first media query: dimension */
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
   .fluid-page {
     padding: 5%;
     margin: 5%;
@@ -104,7 +104,7 @@ nav a:hover {
 }
 
 /* second media query */
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .fluid-page {
     padding: 8%;
     margin: 8%;
