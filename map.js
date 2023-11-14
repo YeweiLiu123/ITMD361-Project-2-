@@ -14,7 +14,7 @@ function initMap() {
     animation: google.maps.Animation.BOUNCE,
   });
 
-  var contentString = '<h1>Chicago</h1><p>Chicago information.</p>';
+  var contentString = '<h1>Chicago</h1>Chicago is the third-largest city in the United States, packed with diverse neighborhoods and a stunning skyline along Lake Michigan.<p></p>';
 
   var infowindow = new google.maps.InfoWindow({
     content: contentString,
